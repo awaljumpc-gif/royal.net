@@ -1,0 +1,52 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  
+  # Remove .html from the end of the URL
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)\.html$ /$1 [L,R=301]
+  
+  # Redirect to index.html for all non-file, non-directory requests
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [QSA,L]
+</IfModule>
+
+# Add MIME types
+<IfModule mod_mime.c>
+  AddType application/javascript js
+  AddType text/css css
+  AddType application/font-woff woff
+  AddType application/font-woff2 woff2
+  AddType application/vnd.ms-fontobject eot
+  AddType font/ttf ttf
+  AddType font/opentype otf
+  AddType image/svg+xml svg svgz
+  AddEncoding gzip svgz
+</IfModule>
+
+# Enable gzip compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+# Set cache headers
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 10 days"
+  ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType text/javascript "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+</IfModule>
