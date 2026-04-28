@@ -76,7 +76,7 @@
 
         <!-- Bottom Info -->
         <div class="text-center text-gray-400 text-sm border-t border-gray-800 pt-8">
-          <p>&copy; 2024 WiFi Royal. Hak Cipta Dilindungi. Semua hak reserved.</p>
+          <p>&copy; 2026 WiFi Royal. Hak Cipta Dilindungi.</p>
           <div class="flex justify-center gap-6 mt-4">
             <a href="#" class="hover:text-white transition-colors">Kebijakan Privasi</a>
             <a href="#" class="hover:text-white transition-colors">Syarat Layanan</a>

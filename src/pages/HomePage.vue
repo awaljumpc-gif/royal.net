@@ -40,7 +40,7 @@ const homePackages = [
     id: 3,
     icon: '🏠',
     title: 'Paket Rumah Family',
-    speed: '20 Mbps',
+    speed: '25 Mbps',
     price: '185.000',
     isPopular: false,
     type: 'home',
@@ -55,7 +55,7 @@ const homePackages = [
     id: 4,
     icon: '⚡',
     title: 'Paket Rumah Hyper',
-    speed: '30 Mbps',
+    speed: '35 Mbps',
     price: '215.000',
     isPopular: false,
     type: 'home',
@@ -180,12 +180,6 @@ const handleSelectPackage = (packageId) => {
             >
               Lihat Cara Bayar
             </router-link>
-            <a
-              href="#paket"
-              class="inline-block border border-blue-600 text-blue-600 px-8 py-4 rounded-full font-bold hover:bg-blue-50 transition"
-            >
-              Lihat Paket
-            </a>
           </div>
         </div>
       </div>
