@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import Carousel from '../components/Carousel.vue'
 import PackageCard from '../components/PackageCard.vue'
+import Testimoni from '../components/Testimoni.vue'
 
 const selectedPackage = ref(null)
 
@@ -285,6 +286,10 @@ const handleSelectPackage = (packageId) => {
           </div>
         </div>
       </div>
+    </section>
+
+    <section id="testimoni" class="py-16 px-4 bg-white">
+      <Testimoni />
     </section>
 
     <section id="kontak" class="py-20 px-4 bg-gray-50">
