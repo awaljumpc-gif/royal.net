@@ -9,7 +9,7 @@ const homePackages = [
   {
     id: 1,
     icon: '🏠',
-    title: 'Paket Rumah Standar',
+    title: 'Paket Standar',
     speed: '10 Mbps',
     price: '130.000',
     isPopular: false,
@@ -24,7 +24,7 @@ const homePackages = [
   {
     id: 2,
     icon: '⭐',
-    title: 'Paket Rumah Reguler',
+    title: 'Paket Reguler',
     speed: '15 Mbps',
     price: '155.000',
     isPopular: true,
@@ -39,7 +39,7 @@ const homePackages = [
   {
     id: 3,
     icon: '🏠',
-    title: 'Paket Rumah Family',
+    title: 'Paket Family',
     speed: '25 Mbps',
     price: '185.000',
     isPopular: false,
@@ -54,7 +54,7 @@ const homePackages = [
   {
     id: 4,
     icon: '⚡',
-    title: 'Paket Rumah Super',
+    title: 'Paket Super',
     speed: '35 Mbps',
     price: '215.000',
     isPopular: false,
@@ -69,7 +69,7 @@ const homePackages = [
   {
     id: 5,
     icon: '💎',
-    title: 'Paket Rumah Hyper',
+    title: 'Paket Hyper',
     speed: '50 Mbps',
     price: '280.000',
     isPopular: false,
@@ -84,7 +84,7 @@ const homePackages = [
   {
     id: 6,
     icon: '🚀',
-    title: 'Paket Rumah Ultra',
+    title: 'Paket Ultra',
     speed: '100 Mbps',
     price: '470.000',
     isPopular: false,
