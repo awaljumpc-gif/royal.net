@@ -26,24 +26,48 @@
         <div class="text-center mb-12">
           <h2 class="text-4xl font-bold text-gray-900 mb-4">Langkah Mudah Bayar</h2>
           <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ikuti tiga langkah ini untuk menyelesaikan pembayaran paket RoyalNet melalui Duitku.
+            Ikuti langkah ini untuk menyelesaikan pembayaran paket RoyalNet melalui Duitku.
           </p>
         </div>
 
         <Accordion :items="paymentSteps" class="shadow-lg">
           <template #content-0="{ item }">
-            <div class="space-y-4">
-              <p class="text-gray-600">{{ item.content }}</p>
-              <div class="bg-blue-50 p-4 rounded-lg">
-                <h4 class="font-semibold text-blue-900 mb-2">Paket Tersedia:</h4>
+            <div class="space-y-2">
+              <!-- <p class="text-gray-600"></p> -->
+              <div class="bg-blue-50 m-4 p-4 rounded-lg">
                 <ul class="space-y-2 text-blue-800">
-                  <li class="flex items-center">
-                    <span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                    Paket Rumah Standar, Premium, Ultra
+                  <li class="text-sm">
+                    • Silakan mengunjungi Member Area Dengan mengklik Menu berikut <a href="https://pay.wifi-royal.net/login" class="text-red-500" target="_blank" rel="noopener noreferrer">Client Area</a>
                   </li>
-                  <li class="flex items-center">
-                    <span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                    Paket Bisnis Dasar, Profesional, Enterprise
+                  <li class="text-sm">
+                    • Masukan customer id dan password anda.
+                  </li>
+                  <li class="text-sm">
+                    • Pilih tombol BAYAR DISINI pada tab Masa Aktif atau pada History Pembayaran.
+                  </li>
+                  <li class="text-sm">
+                    • Lalu klik tombol BAYAR DISINI pada kotak Belum Bayar.
+                  </li>
+                  <li class="text-sm">
+                    • Setelah itu Pilih Metode Pembayaran Pembayaran Online – DUITKU
+                  </li>
+                  <li class="text-sm">
+                    • Pada DUITKU Payment Channel pilih Alfamart, kemudian klik Lanjutkan.
+                  </li>
+                  <li class="text-sm">
+                    • Pastikan kembali data pelanggan untuk menghindari kesalahan.
+                  </li>
+                  <li class="text-sm">
+                    • Catat kode pembayaran yang berhasil dibuat untuk selanjutnya di gunakan sebagai kode pembayaran di Alfamart.
+                  </li>
+                  <li class="text-sm">
+                    • Berikan informasi kepada kasir Alfamart untuk melakukan pembayaran RoyalNet via DUITKU dan berikan kode pembayaran yang sudah dibuat.
+                  </li>
+                  <li class="text-sm">
+                    • Pastikan nominal pembayaran sesuai dengan tagihan yang tertera pada invoice pembayaran yang terdapat di halaman Cient Area.
+                  </li>
+                  <li class="text-sm">
+                    • Setelah itu Simpan Resi/Struk Pembayaran yang diberikan kasir untuk melakukan Konfirmasi pembayaran
                   </li>
                 </ul>
               </div>
