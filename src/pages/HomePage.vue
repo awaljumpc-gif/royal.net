@@ -170,17 +170,8 @@ const handleSelectPackage = (packageId) => {
             Layanan Internet Terbaik di Kelasnya
           </h2>
           <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-            RoyalNet menyediakan solusi internet berkecepatan tinggi dengan harga terjangkau untuk kebutuhan rumah dan bisnis Anda. Nikmati koneksi stabil dan dukungan pelanggan terbaik 24/7.
+            RoyalNet menyediakan solusi internet berkecepatan tinggi dengan harga terjangkau untuk kebutuhan rumah dan bisnis Anda. Nikmati koneksi stabil dan dukungan pelanggan terbaik.
           </p>
-
-          <div class="mt-8 flex flex-col md:flex-row items-center justify-center gap-4">
-            <router-link
-              to="/cara-bayar"
-              class="inline-block bg-blue-600 text-white px-8 py-4 rounded-full font-bold hover:bg-blue-700 transition"
-            >
-              Lihat Cara Bayar
-            </router-link>
-          </div>
         </div>
       </div>
     </section>
