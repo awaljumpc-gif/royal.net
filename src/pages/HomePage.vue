@@ -54,7 +54,7 @@ const homePackages = [
   {
     id: 4,
     icon: '⚡',
-    title: 'Paket Rumah Hyper',
+    title: 'Paket Rumah Super',
     speed: '35 Mbps',
     price: '215.000',
     isPopular: false,
@@ -69,7 +69,7 @@ const homePackages = [
   {
     id: 5,
     icon: '💎',
-    title: 'Paket Rumah Ultra',
+    title: 'Paket Rumah Hyper',
     speed: '50 Mbps',
     price: '280.000',
     isPopular: false,
